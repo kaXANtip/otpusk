@@ -1,0 +1,11 @@
+{
+  "name": "otpusk-miniapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Отпуск — доставка продуктов. Telegram Mini App.",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "catalog": "python tools/build_catalog.py"
+  }
+}
